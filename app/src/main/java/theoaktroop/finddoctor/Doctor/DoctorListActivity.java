@@ -6,8 +6,6 @@ import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -57,11 +55,10 @@ public class DoctorListActivity extends ActionBarActivity {
 
         doctorListView=(ListView)findViewById(R.id.listViewDoctor);
 
-
-        CustomListDoctorAdapter adapter=new CustomListDoctorAdapter(this, doctorName,doctorSpeciality,doctorLocation, imgid);
-
+        DoctorCustomAdapter adapter=new DoctorCustomAdapter(this, doctorName,doctorSpeciality,doctorLocation, imgid);
 
         doctorListView.setAdapter(adapter);
+
         doctorListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {

@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import theoaktroop.finddoctor.R;
 
-public class CustomListDoctorAdapter extends ArrayAdapter<String> {
+public class DoctorCustomAdapter extends ArrayAdapter<String> {
 
     private final Activity context;
     private final String[] doctorName;
@@ -18,7 +18,7 @@ public class CustomListDoctorAdapter extends ArrayAdapter<String> {
     private final String[] doctorLocation;
     private final Integer[] imgid;
 
-    public CustomListDoctorAdapter(Activity context, String[] doctorName,String[] doctorSpece,String[] doctorLaocation, Integer[] imgid) {
+    public DoctorCustomAdapter(Activity context, String[] doctorName, String[] doctorSpece, String[] doctorLaocation, Integer[] imgid) {
         super(context, R.layout.doctor_list_helper, doctorName);
         // TODO Auto-generated constructor stub
 
@@ -38,13 +38,11 @@ public class CustomListDoctorAdapter extends ArrayAdapter<String> {
         TextView txtdoctorLocation= (TextView) rowView.findViewById(R.id.doctorLocationTextView);
         ImageView imageView = (ImageView) rowView.findViewById(R.id.doctorImage);
 
-
         txtdoctorName.setText(doctorName[position]);
         txtdoctorSpeciality.setText("Speciality: "+doctorSpec[position]);
         txtdoctorLocation.setText("Location: "+doctorLocation[position]);
         imageView.setImageResource(imgid[position]);
 
         return rowView;
-
     };
 }

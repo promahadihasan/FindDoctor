@@ -71,7 +71,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="01521208079"
+                android:text="015212080709"
                 android:textSize="15sp"
                 android:layout_gravity="center"/>
 
@@ -98,7 +98,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="hasan_cse91@yahoo.com"
+                android:text="hasan_cse1991@yahoo.com"
                 android:textSize="15sp"
                 android:layout_gravity="center"/>
 
