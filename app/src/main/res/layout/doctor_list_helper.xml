@@ -9,12 +9,12 @@
         android:layout_height="wrap_content">
 
         <ImageView
-            android:layout_width="120dp"
-            android:layout_height="120dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:id="@+id/doctorImage"/>
 
         <Space
-            android:layout_width="20dp"
+            android:layout_width="5dp"
             android:layout_height="5dp" />
 
         <LinearLayout
@@ -26,7 +26,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Name: "
-                android:textSize="25sp"
+                android:textSize="18sp"
                 android:padding="3dp"
                 android:id="@+id/doctorNameTextView"/>
 
@@ -34,7 +34,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Speciality: "
-                android:textSize="20sp"
+                android:textSize="15sp"
                 android:padding="3dp"
                 android:id="@+id/doctorSpecialityTextView"/>
 
@@ -42,7 +42,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Location: "
-                android:textSize="20sp"
+                android:textSize="15sp"
                 android:padding="3dp"
                 android:id="@+id/doctorLocationTextView"/>
 

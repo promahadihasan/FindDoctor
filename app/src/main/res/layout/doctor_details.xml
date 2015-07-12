@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="10dp"
+    android:padding="5dp"
     android:gravity="center">
 
     <ImageView
@@ -20,7 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Name: "
-            android:textSize="25sp"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:padding="4dp"
             android:id="@+id/doctorName"/>
@@ -28,8 +29,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Degree: "
-            android:textSize="20sp"
+            android:text="Degree: MBBS, FCPS"
+            android:textSize="15sp"
             android:padding="4dp"
             android:id="@+id/doctorDegree"/>
 
@@ -37,7 +38,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Speciality: "
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:padding="4dp"
             android:id="@+id/doctorSpeciality"/>
 
@@ -45,7 +46,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Location: "
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:padding="4dp"
             android:id="@+id/doctorLocation"/>
 
@@ -59,8 +60,8 @@
             android:id="@+id/phoneCallLayout">
 
             <ImageView
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:src="@drawable/ic_phone_call" />
 
             <Space
@@ -71,7 +72,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="01521208079"
-                android:textSize="25sp"
+                android:textSize="15sp"
                 android:layout_gravity="center"/>
 
         </LinearLayout>
@@ -86,8 +87,8 @@
             android:id="@+id/emailLayout">
 
             <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:src="@drawable/ic_email" />
 
             <Space
@@ -98,7 +99,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="hasan_cse91@yahoo.com"
-                android:textSize="20sp"
+                android:textSize="15sp"
                 android:layout_gravity="center"/>
 
         </LinearLayout>
@@ -106,8 +107,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Visiting hour:"
-            android:textSize="20sp"
+            android:text="Visiting hour: 5:00 PM to 8:00 pm"
+            android:textSize="15sp"
             android:padding="4dp"
             android:id="@+id/visitingHourTextView"/>
 

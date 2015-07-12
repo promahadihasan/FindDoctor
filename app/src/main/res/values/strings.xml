@@ -9,6 +9,8 @@
     <string name="title_activity_clinic_list">Clinic List</string>
     <string name="title_activity_ambulance_list">Ambulance List</string>
     <string name="title_activity_diagnostic_center_list">Diagnostic Center List</string>
+    <string name="title_activity_doctor_details">Doctor\'s Information</string>
+
 
     <string name="doctor_prompt">Choose category</string>
     <string-array name="doctor_speciality_arrays">
