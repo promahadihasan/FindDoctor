@@ -2,32 +2,32 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Sunny_PC\AndroidStudioProjects\FindDoctor\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
-        <dex dex="C:\Users\Sunny_PC\AndroidStudioProjects\FindDoctor\app\build\intermediates\pre-dexed\debug\classes-d314e3ad16606e435cb70ea983908769f60fa653.jar" />
-    </item>
-    <item
-        jar="C:\Users\Sunny_PC\AndroidStudioProjects\FindDoctor\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
-        <dex dex="C:\Users\Sunny_PC\AndroidStudioProjects\FindDoctor\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-84bcdf4ce8cc045e764f9bc60d4dadd385335412.jar" />
-    </item>
-    <item
-        jar="C:\Users\Sunny_PC\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jar="C:\Users\Hasan Abdullah\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="C:\Users\Sunny_PC\AndroidStudioProjects\FindDoctor\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-64ba15d346bcde21e3353f539aeb14044f474478.jar" />
+        <dex dex="D:\JavaWorkspace\FindDoctor\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-1b574951915ba6ca2fdcbb6bba334931b02f1422.jar" />
     </item>
     <item
-        jar="C:\Users\Sunny_PC\AndroidStudioProjects\FindDoctor\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
+        jar="D:\JavaWorkspace\FindDoctor\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="D:\JavaWorkspace\FindDoctor\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-d783251302cd505fdc65a3b6135ed4fbafab6228.jar" />
+    </item>
+    <item
+        jar="D:\JavaWorkspace\FindDoctor\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="C:\Users\Sunny_PC\AndroidStudioProjects\FindDoctor\app\build\intermediates\pre-dexed\debug\classes-42974b079e8cf5773c9115acdf72b80691d6d02b.jar" />
+        <dex dex="D:\JavaWorkspace\FindDoctor\app\build\intermediates\pre-dexed\debug\classes-1f02c22594b874a683de14fb2a7b35c7f5b3bd03.jar" />
+    </item>
+    <item
+        jar="D:\JavaWorkspace\FindDoctor\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="D:\JavaWorkspace\FindDoctor\app\build\intermediates\pre-dexed\debug\classes-f3f462b151e954927944b7547630e7c9949746f8.jar" />
     </item>
 
 </items>
