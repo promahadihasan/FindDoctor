@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Find Doctor</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="production">A Production of The Oak Troop</string>
+    <string name="title_activity_doctor_list">Doctor List</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_clinic_list">Clinic List</string>
+    <string name="title_activity_ambulance_list">Ambulance List</string>
+    <string name="title_activity_diagnostic_center_list">Diagnostic Center List</string>
+</resources>

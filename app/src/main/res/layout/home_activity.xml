@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#666362"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose anyone"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp"/>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:weightSum="3"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:src="@drawable/doctor"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="featureButtonAction"
+                android:id="@+id/doctorButton"/>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:src="@drawable/clinic"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="featureButtonAction"
+                android:id="@+id/clinicButton"/>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight=".5"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:weightSum="3">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:src="@drawable/ambulance"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="featureButtonAction"
+                android:id="@+id/ambulanceButton"/>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:src="@drawable/diagnostic_center"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="featureButtonAction"
+                android:id="@+id/diagnosticButton"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
