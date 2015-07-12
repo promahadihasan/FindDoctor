@@ -23,7 +23,7 @@ public class SplashActivity extends Activity {
 
                 try {
                     // Thread will sleep for 2000 seconds
-                    sleep(100);
+                    sleep(1500);
 
                     // After 5 seconds redirect to another intent
                     Intent i=new Intent(SplashActivity.this,HomeActivity.class);

@@ -32,6 +32,10 @@
             android:label="@string/title_activity_clinic_list" >
         </activity>
         <activity
+            android:name=".Clinic.ClinicDetailsActivity"
+            android:label="@string/title_activity_clinic_details" >
+        </activity>
+        <activity
             android:name=".Ambulance.AmbulanceListActivity"
             android:label="@string/title_activity_ambulance_list" >
         </activity>
