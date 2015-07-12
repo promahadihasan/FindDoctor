@@ -38,6 +38,18 @@ public class ClinicListActivity extends ActionBarActivity {
             "Mirpur, Dhaka",
             "Kalyanpur, Dhaka"
     };
+    private final String[] clinicPhone = {
+            "015214569878",
+            "0285215698",
+            "018456598789",
+            "015214569878",
+            "0285215698",
+            "018456598789",
+            "015214569878",
+            "0285215698",
+            "015214569878",
+            "018456598789"
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,7 +57,7 @@ public class ClinicListActivity extends ActionBarActivity {
         setContentView(R.layout.activity_clinic_list);
 
         clinicListView = (ListView) findViewById(R.id.clinicListView);
-        ClinicCustomAdapter clinicCustomAdapter = new ClinicCustomAdapter(this, clinicName, clinicLocation);
+        ClinicCustomAdapter clinicCustomAdapter = new ClinicCustomAdapter(this, clinicName, clinicLocation, clinicPhone);
         clinicListView.setAdapter(clinicCustomAdapter);
 
         clinicListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {

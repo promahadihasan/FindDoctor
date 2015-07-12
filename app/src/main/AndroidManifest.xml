@@ -44,6 +44,10 @@
             android:label="@string/title_activity_diagnostic_center_list" >
         </activity>
         <activity
+            android:name=".Diagnostic_Center.DiagnosticCenterDetailsActivity"
+            android:label="@string/title_activity_diagnostic_center_details" >
+        </activity>
+        <activity
             android:name=".Doctor.DoctorDetailsActivity"
             android:label="@string/title_activity_doctor_details" >
         </activity>

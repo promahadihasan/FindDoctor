@@ -17,13 +17,15 @@ public class ClinicCustomAdapter extends ArrayAdapter<String> {
     private final Activity context;
     private final String[] clinicName;
     private final String[] clinicLocation;
+    private final String[] clinicPhone;
 
 
-    public ClinicCustomAdapter(Activity context, String[] clinicName, String[] clinicLocation) {
+    public ClinicCustomAdapter(Activity context, String[] clinicName, String[] clinicLocation, String[] clinicPhone) {
         super(context, R.layout.ambulance_clinic_diagnostic_list_helper, clinicName);
         this.context = context;
         this.clinicName = clinicName;
         this.clinicLocation = clinicLocation;
+        this.clinicPhone = clinicPhone;
     }
 
     public View getView(int position, View view, ViewGroup parent){
@@ -32,10 +34,11 @@ public class ClinicCustomAdapter extends ArrayAdapter<String> {
 
         TextView name = (TextView) rowView.findViewById(R.id.nameTextView);
         TextView location = (TextView) rowView.findViewById(R.id.locationTextView);
+        TextView phone = (TextView) rowView.findViewById(R.id.phoneTextView);
 
         name.setText(clinicName[position]);
-        location.setText(clinicLocation[position]);
-
+        location.setText("Location: "+clinicLocation[position]);
+        phone.setText("Phone: "+clinicPhone[position]);
         return rowView;
     }
 }

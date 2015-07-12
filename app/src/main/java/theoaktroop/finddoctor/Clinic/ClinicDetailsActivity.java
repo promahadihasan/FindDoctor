@@ -3,16 +3,10 @@ package theoaktroop.finddoctor.Clinic;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
-import android.widget.ListView;
-import android.widget.TextClock;
 import android.widget.TextView;
-
-import java.util.List;
-
 import theoaktroop.finddoctor.R;
 
 /**
@@ -44,6 +38,18 @@ public class ClinicDetailsActivity extends ActionBarActivity {
             "Mirpur, Dhaka",
             "Kalyanpur, Dhaka"
     };
+    private final String[] clinicPhone = {
+            "015214569878",
+            "0285215698",
+            "018456598789",
+            "015214569878",
+            "0285215698",
+            "018456598789",
+            "015214569878",
+            "0285215698",
+            "015214569878",
+            "018456598789"
+    };
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -52,10 +58,12 @@ public class ClinicDetailsActivity extends ActionBarActivity {
 
         TextView name = (TextView) findViewById(R.id.nameCDTextView);
         TextView location = (TextView) findViewById(R.id.locationCDTextView);
+        TextView phone = (TextView) findViewById(R.id.clinicPhone);
         int position = Integer.parseInt(getIntent().getStringExtra("position"));
 
         name.setText(clinicName[position]);
         location.setText("Location: "+clinicLocation[position]);
+        phone.setText("Phone: "+clinicPhone[position]);
     }
 
     public void phoneCallAction(View view){
