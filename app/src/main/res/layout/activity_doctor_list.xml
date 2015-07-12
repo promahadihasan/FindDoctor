@@ -13,7 +13,8 @@
         android:layout_height="wrap_content"
         android:text="Search Doctors"
         android:layout_gravity="center_horizontal"
-        android:onClick="searchAction" />
+        android:onClick="searchAction"
+        android:id="@+id/searchButton" />
 
     <ListView
         android:layout_width="match_parent"
