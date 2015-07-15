@@ -65,12 +65,16 @@
         <Button
             android:layout_width="130dp"
             android:layout_height="wrap_content"
-            android:text="Medical Test"/>
+            android:text="Medical Test"
+            android:onClick="buttonAction"
+            android:id="@+id/medicalTextListButton"/>
 
         <Button
             android:layout_width="160dp"
             android:layout_height="wrap_content"
-            android:text="Doctors"/>
+            android:text="Doctors"
+            android:onClick="buttonAction"
+            android:id="@+id/doctorListButton"/>
 
 
 

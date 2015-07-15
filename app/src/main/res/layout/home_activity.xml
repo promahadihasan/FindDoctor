@@ -9,8 +9,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Choose anyone"
-        android:textSize="30sp"
+        android:text="@string/home_note"
+        android:textSize="25sp"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         android:layout_marginBottom="50dp"/>
@@ -20,38 +20,78 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="350dp"
-        android:weightSum="5">
+        android:weightSum="7">
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="2"
+            android:layout_weight="3"
             android:weightSum="3"
             android:gravity="center">
 
-            <ImageView
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="150dp"
-                android:src="@drawable/doctor"
                 android:layout_weight="1"
+                android:weightSum="4"
+                android:orientation="vertical"
+                android:gravity="center"
                 android:clickable="true"
                 android:onClick="featureButtonAction"
-                android:id="@+id/doctorButton"/>
+                android:id="@+id/doctorButton">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.1"
+                    android:src="@drawable/doctor" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight=".9"
+                    android:text="@string/doctor"
+                    android:textSize="30sp"
+                    android:textColor="#FFFFFF"/>
+
+            </LinearLayout>
+
+
 
             <Space
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight=".5"/>
 
-            <ImageView
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="150dp"
-                android:src="@drawable/clinic"
                 android:layout_weight="1"
+                android:weightSum="4"
+                android:orientation="vertical"
+                android:gravity="center"
                 android:clickable="true"
                 android:onClick="featureButtonAction"
-                android:id="@+id/clinicButton"/>
+                android:id="@+id/clinicButton">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:src="@drawable/clinic"
+                    android:layout_weight="3.1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight=".9"
+                    android:text="@string/clinic"
+                    android:textSize="30sp"
+                    android:textColor="#FFFFFF"/>
+
+            </LinearLayout>
+
+
 
         </LinearLayout>
 
@@ -64,32 +104,73 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="2"
+            android:layout_weight="3.5"
             android:gravity="center"
             android:weightSum="3">
 
-            <ImageView
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="150dp"
-                android:src="@drawable/ambulance"
                 android:layout_weight="1"
+                android:weightSum="4"
+                android:orientation="vertical"
+                android:gravity="center"
                 android:clickable="true"
                 android:onClick="featureButtonAction"
-                android:id="@+id/ambulanceButton"/>
+                android:id="@+id/ambulanceButton">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:src="@drawable/ambulance"
+                    android:layout_weight="2.5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/ambulance"
+                    android:textSize="25sp"
+                    android:textColor="#FFFFFF"/>
+
+                </LinearLayout>
+
+
 
             <Space
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight=".5"/>
 
-            <ImageView
+            <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="150dp"
-                android:src="@drawable/diagnostic_center"
+                android:layout_height="fill_parent"
                 android:layout_weight="1"
+                android:weightSum="5"
+                android:orientation="vertical"
+                android:gravity="center"
                 android:clickable="true"
                 android:onClick="featureButtonAction"
-                android:id="@+id/diagnosticButton"/>
+                android:id="@+id/diagnosticButton">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:src="@drawable/diagnostic_center"
+                    android:layout_weight="3.2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.5"
+                    android:gravity="center"
+                    android:text="@string/diagnostic_center"
+                    android:textSize="20sp"
+                    android:textColor="#FFFFFF"/>
+
+            </LinearLayout>
+
+
 
         </LinearLayout>
     </LinearLayout>

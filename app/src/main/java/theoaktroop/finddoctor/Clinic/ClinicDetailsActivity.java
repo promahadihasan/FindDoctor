@@ -7,6 +7,10 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.widget.TextView;
+
+import theoaktroop.finddoctor.Doctor.DoctorListActivity;
+import theoaktroop.finddoctor.MedicalTestListActivity;
+import theoaktroop.finddoctor.OtListActivity;
 import theoaktroop.finddoctor.R;
 
 /**
@@ -64,6 +68,22 @@ public class ClinicDetailsActivity extends ActionBarActivity {
         name.setText(clinicName[position]);
         location.setText("Location: "+clinicLocation[position]);
         phone.setText("Phone: "+clinicPhone[position]);
+    }
+
+    public void buttonAction(View view){
+
+        if(view.getId()==R.id.doctorListButton){
+            Intent doctorIntent = new Intent(ClinicDetailsActivity.this, DoctorListActivity.class);
+            startActivity(doctorIntent);
+        }
+        else if(view.getId()==R.id.medicalTextListButton){
+            Intent medicalTestIntent = new Intent(ClinicDetailsActivity.this, MedicalTestListActivity.class);
+            startActivity(medicalTestIntent);
+        }
+        else if(view.getId()==R.id.otListButton){
+            Intent otIntent = new Intent(ClinicDetailsActivity.this, OtListActivity.class);
+            startActivity(otIntent);
+        }
     }
 
     public void phoneCallAction(View view){

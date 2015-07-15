@@ -1,17 +1,25 @@
 <resources>
-    <string name="app_name">Find Doctor</string>
+    <string name="app_name">Health Service</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="production">A Production of The Oak Troop</string>
-    <string name="title_activity_doctor_list">Doctor List</string>
+    <string name="title_activity_doctor_list">ডাক্তারের তালিকা</string>
     <string name="title_activity_home">Home</string>
-    <string name="title_activity_clinic_list">Clinic List</string>
-    <string name="title_activity_ambulance_list">Ambulance List</string>
-    <string name="title_activity_diagnostic_center_list">Diagnostic Center List</string>
-    <string name="title_activity_diagnostic_center_details">Diagnostic Center Info</string>
-    <string name="title_activity_doctor_details">Doctor\'s Information</string>
-    <string name="title_activity_clinic_details">Clinic Information</string>
+    <string name="title_activity_clinic_list">ক্লিনিকের তালিকা</string>
+    <string name="title_activity_ambulance_list">এম্বুলেন্সের তালিকা</string>
+    <string name="title_activity_diagnostic_center_list">ডায়াগনস্টিক সেন্টারের তালিকা</string>
+    <string name="title_activity_diagnostic_center_details">ডায়াগনস্টিক সেন্টার তথ্য</string>
+    <string name="title_activity_doctor_details">ডাক্তারের তথ্য</string>
+    <string name="title_activity_clinic_details">ক্লিনিকের তথ্য</string>
+    <string name="doctor">ডাক্তার</string>
+    <string name="clinic">ক্লিনিক</string>
+    <string name="ambulance">এম্বুলেন্স</string>
+    <string name="diagnostic_center">ডায়াগনস্টিক সেন্টার</string>
+    <string name="blood">রক্তদাতা খুঁজুন</string>
+    <string name="home_note">সেবার ধরন পছন্দ করুন</string>
+    <string name="search">সার্চ করুন</string>
+    <string name="searching_dialog">আপনার প্রয়োজন অনুযায়ী তথ্য দিয়ে সার্চ করুন</string>
 
 
     <string name="doctor_prompt">Choose category</string>
@@ -24,5 +32,7 @@
         <item>Medicine</item>
         <item>Neurologists‎</item>
     </string-array>
+    <string name="title_activity_medical_test_list">মেডিকেল টেস্টের তালিকা</string>
+    <string name="title_activity_ot_list">অপারেশনের তালিকা</string>
 
 </resources>

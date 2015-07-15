@@ -7,11 +7,13 @@ import android.content.Intent;
 import android.graphics.PorterDuff;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 import theoaktroop.finddoctor.Ambulance.AmbulanceListActivity;
 import theoaktroop.finddoctor.Clinic.ClinicListActivity;
@@ -24,10 +26,10 @@ import theoaktroop.finddoctor.R;
  */
 public class HomeActivity extends Activity {
 
-    ImageView doctor;
-    ImageView clinic;
-    ImageView ambulance;
-    ImageView diagnostic;
+    LinearLayout doctor;
+    LinearLayout clinic;
+    LinearLayout ambulance;
+    LinearLayout diagnostic;
     private AlphaAnimation buttonClick = new AlphaAnimation(1F, 0.002F);
 
     @Override
@@ -61,10 +63,10 @@ public class HomeActivity extends Activity {
     }
 
     private void viewInitialize() {
-        doctor = (ImageView) findViewById(R.id.doctorButton);
-        clinic = (ImageView) findViewById(R.id.clinicButton);
-        ambulance = (ImageView) findViewById(R.id.ambulanceButton);
-        diagnostic = (ImageView) findViewById(R.id.diagnosticButton);
+        doctor = (LinearLayout) findViewById(R.id.doctorButton);
+        clinic = (LinearLayout) findViewById(R.id.clinicButton);
+        ambulance = (LinearLayout) findViewById(R.id.ambulanceButton);
+        diagnostic = (LinearLayout) findViewById(R.id.diagnosticButton);
     }
 
     public static void buttonEffect(View button){

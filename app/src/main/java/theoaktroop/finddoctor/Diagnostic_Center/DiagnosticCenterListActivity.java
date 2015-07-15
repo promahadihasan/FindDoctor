@@ -67,7 +67,7 @@ public class DiagnosticCenterListActivity extends ActionBarActivity {
 
         new AlertDialog.Builder(this)
                 .setTitle("Searching filter")
-                .setMessage("Input your required searching field for filtering: ")
+                .setMessage(R.string.searching_dialog)
                 .setView(dialogView)
                 .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {

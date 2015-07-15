@@ -65,17 +65,23 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Doctors"/>
+            android:text="Doctors"
+            android:onClick="buttonAction"
+            android:id="@+id/doctorListButton"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Medical Test"/>
+            android:text="Medical Test"
+            android:onClick="buttonAction"
+            android:id="@+id/medicalTextListButton"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="OT"/>
+            android:text="OT"
+            android:onClick="buttonAction"
+            android:id="@+id/otListButton"/>
 
     </LinearLayout>
 
